@@ -19,5 +19,5 @@ CREATE TABLE IF NOT EXISTS Customers (
     PRIMARY KEY (ID)
 );
 
-CREATE INDEX idx_name ON Products (Name);
-CREATE INDEX idx_email ON Customers (Email);
+CREATE INDEX ProductId ON Products (Name);
+CREATE INDEX EmailId ON Customers (Email);
